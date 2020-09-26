@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Paulo Aleixo Campos
+__dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# node and npm
+export PATH="${__dir}"/node-v12.18.3-linux-x64/bin:"${PATH}"
+# newman and other npm bins
+export PATH="${__dir}"/node_modules/.bin/:"${PATH}"
+
+
+
